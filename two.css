@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+footer {
+  padding: 5px 0 5px 0;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #C5C1C0;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer .link{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 3px 3px #666;
+  padding-left: 5px;
+}
+
+footer .link:hover {
+  color: blue;
+}
+
+footer img {
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+
+ul {
+  margin: 0;
+}
+
+.nav {
+  width: auto;
+  height: 50px;
+  text-decoration: none;
+  padding: 10px 0 0 5px;
+  text-align: left;
+  font-weight: bold;
+  background-color: #C5C1C0;
+  font-size: 25px;
+  word-spacing: 2.5px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 3px 3px 3px #666;
+}
+
+.nav a:hover {
+  color: yellow;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}
+
+.text {
+  margin: 10px;
+  text-align: center;
+  float: left;
+  width: 50%;
+  word-spacing: 3px;
+}
+
+.recent {
+  width: 20%;
+  height: 220px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}
+
+.recent ul {
+  text-align: left;
+}
+
+.ad {
+  width: 20%;
+  height: 250px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}
+
+.other {
+  width: 20%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  float: left;
+}
+
+.text img {
+  float: left;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 660px) {
+  .recent {
+    display: none;
+  }
+
+  .other {
+    width: 95%;
+    height: auto;
+  }
+
+  .ad {
+    width: 95%;
+    height: auto;
+  }
+
+  .text {
+    width: auto;
+  }
+
+  .text img {
+    width: 120px;
+    padding: 5px;
+  }
+}
